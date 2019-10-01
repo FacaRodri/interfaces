@@ -1,0 +1,33 @@
+*{
+    color: white;
+}
+
+.cv{
+    border: solid 2px black;
+}
+
+.dv{
+    text-align: center;
+}
+
+.btns{
+
+    text-align: center;
+}
+
+body{
+    background-image: url("../images\\fondo.jpg");
+}
+
+footer{
+    text-align: center;
+    color: white
+}
+
+h2{
+    color: white;
+}
+
+.navbar{
+    background-color: black;
+}

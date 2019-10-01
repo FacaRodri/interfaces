@@ -1,0 +1,210 @@
+#game {
+  border: solid black;
+  width: 1350px;
+  height: 600px;
+}
+/*//////////////////////////////////////////////////////////////////*/
+
+#capa1 {
+  background: url("../images/capa1.png");
+  position: relative;
+  height: 100%;
+  z-index: 10;
+  animation: cap1 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cap1 {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -1920px 0px;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+#capa2 {
+  background: url("../images/capa2.png");
+  position: relative;
+  height: 100%;
+  z-index: 10;
+  animation: cap2 20s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cap2 {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -1920px, 0px;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+#capa3 {
+  background: url("../images/capa3.png");
+  position: relative;
+  height: 100%;
+  z-index: 10;
+  animation: cap3 15s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cap3 {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -1920px, 0px;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+#capa4 {
+  background: url("../images/capa4.png");
+  position: relative;
+  height: 100%;
+  z-index: 10;
+  animation: cap4 10s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cap4 {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -1920px, 0px;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+#capa5 {
+  background: url("../images/capa5.png");
+  position: relative;
+  height: 100%;
+  z-index: 10;
+  animation: cap5 5s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes cap5 {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -1920px, 0px;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+.plane {
+  background: url("../images/plane.png");
+  position: relative;
+  width: 95px;
+  height: 66px;
+  z-index: 10;
+  animation: plane 1s steps(3) infinite;
+  align-content: center;
+  transform: translate(50px, 500px);
+}
+
+@keyframes plane {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -289px 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+.planeUp {
+  background: url("../images/plane.png");
+  position: relative;
+  width: 95px;
+  height: 66px;
+  z-index: 10;
+  animation: plane 1s steps(3) infinite;
+  align-content: center;
+  transform: translate(50px, 400px);
+}
+
+@keyframes plane {
+  from {
+    background-position: 0, 0;
+  }
+  to {
+    background-position: -289px 0;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+.dead {
+  background: url("../images/dead.png");
+  position: relative;
+  width: 95px;
+  height: 66px;
+  z-index: 10;
+  transform: translate(50px, 500px);
+  align-content: center;
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+#bee {
+  background: url("../images/bee.png");
+  position: relative;
+  width: 125px;
+  height: 100px;
+  z-index: 10;
+  animation: bee 2s steps(6) infinite;
+  transform: translate(50px, 400px)
+}
+
+@keyframes bee {
+  0% {
+    background-position: 0;
+    left: 100%;
+  }
+  20% {
+    background-position: -792px;
+    left: 80%;
+  }
+  40% {
+    background-position: 0;
+    left: 60%;
+  }
+  60% {
+    background-position: -792px;
+    left: 40%;
+  }
+  80% {
+    background-position: 0;
+    left: 20%;
+  }
+  100% {
+    background-position: -792px;
+    left: -20%;
+  }
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
+#gameOver{
+  transform: translate(555px, 200px);
+  width: 200px;
+  height: 10px;
+}
+
+/*//////////////////////////////////////////////////////////////////*/
+
